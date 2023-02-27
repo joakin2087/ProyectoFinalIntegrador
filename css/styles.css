@@ -1,0 +1,69 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;    
+    grid-template-areas:
+    "area1 area1 area1 area1 area1 area1"
+    "area2 area2 area2 area2 area2 area2"
+    "area3 area3 area3 area5 area5 area5"
+    "area3 area3 area3 area5 area5 area5"
+    "area3 area3 area3 area5 area5 area5"
+    "area4 area4 area4 area5 area5 area5"
+    "area4 area4 area4 area5 area5 area5"
+    "area4 area4 area4 area5 area5 area5"
+    "area6 area6 area6 area6 area6 area6" 
+    "area6 area6 area6 area6 area6 area6";
+    } 
+    @media screen and (min-width:240px) and (max-width: 414px) {
+        .grid-container{
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+            grid-template-areas: 
+     "area1 area1 area1 area1 area1 area1"
+     "area2 area2 area2 area2 area2 area2"
+     "area3 area3 area3 area3 area3 area3"
+     "area4 area4 area4 area4 area4 area4"
+     "area5 area5 area5 area5 area5 area5"
+     "area6 area6 area6 area6 area6 area6";        
+        }}
+  
+  .item1 {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area1;
+  }
+  .item2 {
+    background: red;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area2;
+  }
+  
+  .item3 {
+    background: green;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area3;
+  }
+  .item4 {
+    background: yellow;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area4;
+  }
+  .item5 {
+    background: yellow;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area5;
+  }
+  .item6 {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area6;
+  }
+ 
