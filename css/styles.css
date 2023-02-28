@@ -36,10 +36,13 @@
 
  
   .item1 {
-    background: #006778 ;
+    background: #0093AB;
     text-align: center;
     border: yellow 2px solid;
     grid-area: area1;
+    max-height: 400px;
+   
+
   }
   .item2 {
     background-color:#006778 ;
@@ -50,6 +53,7 @@
   
   .item3 {
     background: #0093AB;
+    background-image: url(../img/banner2.png);
     text-align: center;
     border: yellow 2px solid;
     grid-area: area3;
@@ -59,32 +63,64 @@
     text-align: center;
     border: yellow 2px solid;
     grid-area: area4;
+    background-image: url(../img/banner2.png);
   }
   .item5 {
     background: #0093AB;
     text-align: center;
     border: yellow 2px solid;
     grid-area: area5;
+    background-image: url(../img/banner2.png);
   }
   .item6 {
     background: #006778;
     text-align: center;
     border: yellow 2px solid;
     grid-area: area6;
+    background-image: url(../img/header3.png);
   }
  .accordion-button.collapsed{
     background-color: #006778;
     color: #7fffd4;
  }
  .accordion-body{
-    background-color: floralwhite;
+    background-color: #e6d171e6;
     color: #000;
  }
  #navbar-example2{
   background-color:floralwhite;
   text-decoration-color: #7fffd4;
+ }
+ .navbar-toggler-icon{
+  background-color: #0093AB;
+  
   
  }
+
+ .navbar-brand {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: roboto;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration:none;
+  outline: none;
+  text-decoration-color: #ffff00;
+  background-color: #0093AB;
+  border: 1px solid #000;
+  border-radius: 15px;
+  
+}
+
+.navbar-brand:hover {background-color: #7fffd4}
+
+.navbar-brand:active {
+  background-color: #006778;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ 
  #pie{
   display: flex;
   flex-direction: initial;
