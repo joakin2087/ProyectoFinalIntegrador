@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 .grid-container {
     background-color:#006778 ;
     display: grid;
@@ -17,58 +17,59 @@
     "area6 area6 area6 area6 area6 area6" 
     "area6 area6 area6 area6 area6 area6";
     } 
-    @media screen and (min-width:240px) and (max-width: 414px) {
-        .grid-container{
-            display: grid;
-            grid-template-rows: auto;
-            grid-template-columns: auto;
-            grid-template-areas: 
-     "area1 area1 area1 area1 area1 area1"
-     "area2 area2 area2 area2 area2 area2"
-     "area3 area3 area3 area3 area3 area3"
-     "area4 area4 area4 area4 area4 area4"
-     "area5 area5 area5 area5 area5 area5"
-     "area6 area6 area6 area6 area6 area6";        
-        }}
         .imagenPerfil{
             width: max-content;
+            
         }
-  
+        #fotoPerfil{
+          border-top-right-radius: 100%;
+          border-bottom-left-radius: 100%;
+          border-bottom-right-radius: 100%;
+          border-radius:100% ;
+        
+        }
+        p{
+          background-color: #006778;
+          color: #7fffd4;
+
+        }
+
+ 
   .item1 {
     background: #006778 ;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area1;
   }
   .item2 {
     background-color:#006778 ;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area2;
   }
   
   .item3 {
     background: #0093AB;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area3;
   }
   .item4 {
     background: #0093AB;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area4;
   }
   .item5 {
     background: #0093AB;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area5;
   }
   .item6 {
     background: #006778;
     text-align: center;
-    border: black 5px solid;
+    border: yellow 2px solid;
     grid-area: area6;
   }
  .accordion-button.collapsed{
@@ -78,4 +79,18 @@
  .accordion-body{
     background-color: floralwhite;
     color: #000;
+ }
+ #navbar-example2{
+  background-color:floralwhite;
+  text-decoration-color: #7fffd4;
+  
+ }
+ #pie{
+  display: flex;
+  flex-direction: initial;
+  color: #7fffd4;
+  font-size: 20px;
+  text-align: center;
+  
+
  }

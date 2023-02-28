@@ -20,17 +20,17 @@
     		   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo3" aria-controls="navbarTogglerDemo3" aria-expanded="false" aria-label="Toggle navigation">
       			 <span class="navbar-toggler-icon"></span>
     		   </button>
-    			<a class="navbar-brand" href="./index.html">Curriculum</a>
+    			<a class="navbar-brand" href="#fotoPerfil">Info general</a>
     		<div class="collapse navbar-collapse" id="navbarTogglerDemo3">
-      			<ul class="navbar-nav me-auto mb-2 mb-xxl-1">
+      			<ul class="navbar-nav me-auto sm-1 mb-2 mb-xxl-1">
        			 <li class="nav-item">
-        				  <a class="nav-link active" aria-current="page" href="#" target="_blank">Tutoriales</a>
+        				  <a class="navbar-brand" href="#experiencia">Experiencia</a>
         		 </li>
         			<li class="nav-item">
-        			  	  <a class="nav-link active" href="" target="_blank">botonazo</a>
+        			  	  <a class="navbar-brand" href="#educacion">Educación</a>
         			</li>
         			   	  <li class="nav-item">
-        			         <a class="nav-link active" aria-current="page" href="#"target="_blank" >Comunidad</a>
+        			         <a class="navbar-brand" href="#conocimiento">Conocimientos</a>
         			      </li>
       			</ul>
       			
@@ -39,18 +39,18 @@
 		</nav>
 	</div>
     
-    <header id="comienzo" class="item2"> 
+    <header id="Comienzo" class="item2"> 
     <img src="./img/header.png" class="imagenPerfil" alt="Imagen de encabezado del perfil,Pcb electrónico">     
     </header>
 
     <section id="principal" class="item3">
                     <div class="row g-0">
               <div class="col-md-4">
-                <img src="img/fotodeperfil.png" class="img-fluid rounded-start" alt="imagen de perfil">
+                <img id="fotoPerfil" src="img/fotodeperfil.png" class="img-fluid rounded-start" alt="imagen de perfil">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Joaquin Balague</h5>
+                  <h1 class="card-title">Joaquin Balague</h1>
                   <p class="card-text">Profesional de Electronica y Automación industrial Programador</p>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
@@ -62,11 +62,11 @@
         <div id="intro"><p></p></div>
     </section>
     <article class="item4">
-        <div id="experiencia"><div class="accordion" id="accordionExample">
+        <div id="experiencia"><p>Experiencia</p><div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Lumenac
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -81,11 +81,11 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
+              <h3 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  Digital Copiers S.R.L
                 </button>
-              </h2>
+              </h3>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -93,11 +93,11 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
+              <h4 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  San up S.A
                 </button>
-              </h2>
+              </h4>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -106,53 +106,104 @@
             </div>
           </div>
         </div>
-        <div id="idiomas">idiomas</div>
+        <div id="idiomas"><p>Idiomas:  •	Inglés: Nivel Intermedio- ingles tecnico •Español:nativo              
+          </p></div>
     </article>
     
-    <aside id="lateral" class="item5">lateral
-        <div id="educacion"><div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
+    <aside id="lateral" class="item5">
+        <div id="educacion"><p>Educación</p>
+          <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Argentina programa 4.0</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Técnicatura</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Título técnico</a>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h5 id="list-item-1">Argentina programa 4.0</h5>
+                <p>Dic. 2022 - Mar. 2023 Desarrollo Web usando HTML5 CSS3 JavaScript
+                  </p>
+                <h6 id="list-item-2">Técnicatura</h6>
+                <p>2009-2013 -  “ Técnico Superior  en Automatización, Robótica y control”  ITUOM (Instituto de la Unión Obrera Metalúrgica De Tres de Febrero)</p>
+                <h7 id="list-item-3">Título técnico</h7>
+                <p>2005-2007 – Egresado de la carrera de “Técnico en electrónica” con orientación en automatización Escuela de Educación Técnica Nº1 “Manuel Belgrano”, San Martín. </p>
+                
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
+          </div>
+          
+          
+          </div>
+        </div>
+        <div id="conocimiento">
+          <nav id="navbar-example2" class="navbar px-3 mb-3">
+            <a class="navbar-brand" href="#conocimiento">Conocimiento</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Programación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Robótica</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Electrónica de potencia</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Neúmatica e Hidraúlica</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Informática</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="false" class="scrollspy-example p-3 rounded-2" tabindex="0">
+            <div id="scrollspyHeading1"><h8 >Programación</h8>
+            <p>•Microcontroladores•Lenguajes assembler•C•Arduino IDE (atmega168)•Motorola MC 68 HLC 90•Pic 16f877/16f84•V+
+              •Rapidz<br>
+              PLC
+             •	Lenguaje ladder y bdf 
+             •	Plc : Siemens logo, festo mod FPC101,  Siemens SIMATICS7200, Telemecanique SR3B261FU
+             •	Control de procesos
+             •	Monitoreo</p></div>
+            <div id="scrollspyHeading2"><h9>Robótica</h9>
+            <p>•	Robostudio
+              •	Creación de estaciones de trabajo
+              •	Uso de teach pendant
+              •	Programación (Rapid, V+), 
+              •	Puesta en marcha 
+              •	Mantenimiento y modificaciones</p>
               </div>
+              <div id="scrollspyHeading3">
+            <h10>Electrónica de potencia</h10>
+            <p>•Control de motores DC y AC
+              •	Variador de  velocidad (micromaster 440)
+              •	Puente H
+              •	Circuito estrella triángulo
+              •	PWM</p>
+              </div>
+              <div id="scrollspyHeading4">
+            <h11 >Neúmatica e hidraúlica</h11>
+            <p>•	Simulación con FESTOFLUÇID sim
+              •	Accionamientos de sitemas neúmatico/ hidráulicos
+              •	Creación de sistemas neumáticos e hidráulicos controlados por PLC</p>
+            <h12 >Informática</h12>
             </div>
-          </div></div>
-        <div id="conocimiento">conocimiento</div>
+            <div id="scrollspyHeading5">
+            <p>•	Reparación de PC
+              •	Instalación de software
+              •	Autocad
+              •	Matlab
+              •	Microsoft Word 
+              •	 Power Point 
+              •	 Excel</p>
+              </div>
+          </div>
+        </div>
     </aside>
     <footer id="pie" class="item6" >
-        <a href="#Comienzo" class="btn">Ir a comienzo</a>
-            <h3 class="pie__titulo--md">Compartir en redes</h3>
+            <h13 class="pie__titulo--md">Compartir en redes </h13>
             <a href="https://facebook.com" target="_blank">
             <img src="img/facebook.png" alt="Compartir en facebook" class="iconopie">
             </a>
@@ -165,6 +216,7 @@
             <a href="https://linkedin.com" target="_blank">
                 <img src="img/linkedin.png" alt="Compartir en Linkedin" class="iconopie" >	
                 </a>
+                <a href="#Comienzo" class="btn"> Ir a comienzo</a>
 
     </footer>
 
