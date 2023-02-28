@@ -1,4 +1,6 @@
+
 .grid-container {
+    background-color:#006778 ;
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -28,42 +30,52 @@
      "area5 area5 area5 area5 area5 area5"
      "area6 area6 area6 area6 area6 area6";        
         }}
+        .imagenPerfil{
+            width: max-content;
+        }
   
   .item1 {
-    background: blue;
+    background: #006778 ;
     text-align: center;
     border: black 5px solid;
     grid-area: area1;
   }
   .item2 {
-    background: red;
+    background-color:#006778 ;
     text-align: center;
     border: black 5px solid;
     grid-area: area2;
   }
   
   .item3 {
-    background: green;
+    background: #0093AB;
     text-align: center;
     border: black 5px solid;
     grid-area: area3;
   }
   .item4 {
-    background: yellow;
+    background: #0093AB;
     text-align: center;
     border: black 5px solid;
     grid-area: area4;
   }
   .item5 {
-    background: yellow;
+    background: #0093AB;
     text-align: center;
     border: black 5px solid;
     grid-area: area5;
   }
   .item6 {
-    background: blue;
+    background: #006778;
     text-align: center;
     border: black 5px solid;
     grid-area: area6;
   }
- 
+ .accordion-button.collapsed{
+    background-color: #006778;
+    color: #7fffd4;
+ }
+ .accordion-body{
+    background-color: floralwhite;
+    color: #000;
+ }
