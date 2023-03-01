@@ -18,18 +18,42 @@
     "area6 area6 area6 area6 area6 area6";
     } 
         .imagenPerfil{
-            width: max-content;
+        width: max-content;
             
         }
         #fotoPerfil{
           border-top-right-radius: 100%;
           border-bottom-left-radius: 100%;
           border-bottom-right-radius: 100%;
-          border-radius:100% ;
-        
+          border-radius:100% ;  
+        }
+        .card-title{
+          margin-top: 10px;
+          background-color: #0093AB;
+          margin: 15px 10px 10px;
+          border-radius: 15px;
+          border: solid 2px gray;
+         
+        }
+        #nombreDePerfil{
+          margin: 15px 10px 10px;
+          color: #ffff00;
+          font-size: 40px;
+          
+        }
+        #intro{
+          margin: 30px 10px 10px;
+          border-radius: 10px;
+          border: solid 2px gray;
+         
+        }
+        #info{
+          margin: 15px 10px 10px;;
+          border-radius: 5px;
+          border: solid 2px gray;
         }
         p{
-          background-color: #006778;
+          background-color:#0093AB;
           color: #7fffd4;
 
         }
