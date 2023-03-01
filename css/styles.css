@@ -104,8 +104,16 @@
     background-image: url(../img/header3.png);
   }
   #idiomas{
-    display: flex;
-    flex-direction: start;
+    background-color: #0093AB;
+    color: #7fffd4;
+    margin: 15px 10px 10px;
+    border-radius: 10px;
+  }
+  .tituloIdioma{
+    margin: 15px 10px 10px;
+    color: #ffff00;
+    background-color: #0093AB;
+    font-size: 20px;
   }
  .accordion-button.collapsed{
     background-color: #006778;
@@ -117,6 +125,13 @@
  .accordion-body{
     background-color: #e6d171e6;
     color: #000;
+    margin: 10px 15px 15px;
+ }
+ #collapseOne,#collapseTwo,#collapseThree {
+  background-color: #006778;
+ }
+ .accordion-item{
+  background-color: #006778;
  }
  #navbar-example2{
   background-color:floralwhite;
@@ -125,6 +140,7 @@
  }
  .navbar-toggler-icon{
   background-color: #0093AB;
+  border-radius: 10px;
   
   
  }
@@ -157,8 +173,33 @@
   border: solid 1px;
   color: #ffff00;
 }
+h8,h9,h10,h11,h12{
+  color: #ffff00;
+  background-color: #0093AB;
+  border-radius: 5px; 
+}
+div>h6{
+  color: #ffff00;
+  background-color: #0093AB;
+  font-size: 20px;
+}
+div>h5{
+  color: #ffff00;
+  background-color: #0093AB;
+font-size: 20px;
+}
 
+h7{
+  color: #ffff00;
+  background-color: #0093AB;
+}
+
+#pieTitulo{
+  color: #ffff00;
+  font-size: 25px;
  
+
+} 
  #pie{
   display: flex;
   flex-direction: initial;
