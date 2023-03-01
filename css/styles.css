@@ -154,7 +154,10 @@
 }
 #navbar-example2{
   background-color: #006778;
+  border: solid 1px;
+  color: #ffff00;
 }
+
  
  #pie{
   display: flex;
