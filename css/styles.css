@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
 .grid-container {
     background-color:#006778 ;
     display: grid;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-rows: repeat(10,auto);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;    
     grid-template-areas:
@@ -17,6 +18,7 @@
     "area6 area6 area6 area6 area6 area6" 
     "area6 area6 area6 area6 area6 area6";
     } 
+  
         #imagenPerfil{
      max-width: 100%;
             
@@ -224,3 +226,12 @@ h7{
   text-align: center;
   width:100%;
  }
+ @media screen and (max-width: 480px){
+ .grid-container{
+ display: flex;
+ flex-direction:column;
+ }
+
+ }
+
+
