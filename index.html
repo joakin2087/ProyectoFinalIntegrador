@@ -18,7 +18,7 @@
     <div id="nave" class="item1">
 		  <nav class="navbar navbar-expand-lg ">
   			  <div class="container-fluid">
-    		     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo3" aria-controls="navbarTogglerDemo3" aria-expanded="true" aria-label="Toggle navigation">
+    		     <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo3" aria-controls="navbarTogglerDemo3" aria-expanded="true" aria-label="Toggle navigation">
       			   <span class="navbar-toggler-icon"></span>
     		      </button>
     			      <a class="navbar-brand" href="#fotoPerfil">Info general</a>
@@ -41,14 +41,14 @@
 	  </div>
     <!--Header -->
   <header id="Comienzo" class="item2"> 
-    <img src="./img/header.png" class="imagenPerfil" alt="Imagen de encabezado del perfil,Pcb electrónico">     
+    <img src="./img/header.png" id="imagenPerfil" alt="Imagen de encabezado del perfil,Pcb electrónico">     
   </header>
   <!-- Bloque 3 perfil con card de Bootstrap -->
   <section id="principal" class="item3">
     <div class="row g-0">
-        <div class="col-md-4">
+        
           <img id="fotoPerfil" src="img/fotodeperfil.png" class="img-fluid rounded-start" alt="imagen de perfil">
-        </div>
+        
         <div class="col-md-8">
            <div class="card-body">
               <h1 class="card-title"><p id="nombreDePerfil">Joaquín Balagué</p></h1>
@@ -255,9 +255,11 @@
   </div>
 </aside>
 
- <!-- Item 6 footer (uso de clase navbar-brand para reutilizar fotmato en boton -->)
+ <!-- Item 6 footer (uso de clase navbar-brand para reutilizar fotmato en boton) -->
+
     <footer id="pie" class="item6" >
           <h13 id="pieTitulo">Compartir en redes </h13>
+
                 <a href="https://facebook.com" target="_blank">
                     <img src="img/facebook.png" alt="Compartir en facebook" class="iconopie">
                 </a>
@@ -270,7 +272,8 @@
                 <a href="https://linkedin.com" target="_blank">
                     <img src="img/linkedin.png" alt="Compartir en Linkedin" class="iconopie" >	
                 </a>
-                <a href="#Comienzo" class="navbar-brand" type="button"> Ir a comienzo</a>
+
+                <a href="#Comienzo" class="navbar-brand" id="btnPie" type="button"> Ir a comienzo</a>
 
     </footer>
 
