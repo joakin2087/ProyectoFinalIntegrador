@@ -7,6 +7,7 @@
     <meta name="description" content="Pagina dedicada a la confección de un curriculum vitae interactivo de nueva generación">
     <meta name="keywords" content="CV,perfil,Empleo,experiencia,educación,aptitudes,busqueda laboral">
     <meta name="author" content="Joaquin Balague">
+    <link rel="shortcut icon"  href="./img/favicon.svg" />
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script defer src="./js/script.js"></script>
@@ -15,6 +16,7 @@
 <body class="grid-container"  >
   
 <!--  navbar boton hambuerguesa bootstrap -->
+
     <div id="nave" class="item1">
 		  <nav class="navbar navbar-expand-lg ">
   			  <div class="container-fluid">
@@ -39,11 +41,15 @@
   			</div>
 		  </nav>
 	  </div>
+   
     <!--Header -->
+
   <header id="Comienzo" class="item2"> 
     <img src="./img/header.png" id="imagenPerfil" alt="Imagen de encabezado del perfil,Pcb electrónico">     
   </header>
+  
   <!-- Bloque 3 perfil con card de Bootstrap -->
+
   <section id="principal" class="item3"><p class="infoGral">Info general</p>
            
           <img id="fotoPerfil" src="img/fotodeperfil.png" alt="imagen de perfil">
@@ -64,28 +70,33 @@
   <!-- item4 Experinecia hecha Acordion con Boostrap y bloque de idiomas -->
   
   <article class="item4">
+
      <!--   Experiencia 1 -->
-    <div id="experiencia"><p id="experienciaTitulo">Experiencia</p><div class="accordion" id="accordionExample">
-      <div class="accordion-item">
+
+ <div id="experiencia"><p id="experienciaTitulo">Experiencia</p><div class="accordion" id="accordionExample">
+    <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Lumenac
         </button>
       </h2>
    
      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-       <div class="accordion-body">
-       <strong>Gerente de reparaciones</strong> Lumenac S.A · Jornada completa Lumenac S.A ·Sept. 2015 - oct. 2020 · 5 años 2 meses <br>-Reparación de luminarias led, fluorecente y de descarga de gas (lámparas sodio SAP,mercurio MHN-HPI-T)
-      <ul>
-        <li>Mantenimiento predictivo y correctivo usando metodología de trabajo kanban 看板 y Kaizen 改善 5S</li> 
-        <li>Recepción de mercadería de clientes</li>
-        <li>Cálculo luminotécnicos para distintos ambientes</li>
-        <li>Diseño y ensayo de equipos de iluminación led simétrica y asimétrica (importados y de producción propia)</li>
-        <li>Paletizado, organización y distribución de equipos e insumos.</li>
-      </ul>
+        <div class="accordion-body">
+              <p> <strong>Gerente de reparaciones</strong> Lumenac S.A · Jornada completa ·Sept. 2015 - oct. 2020 · 5 años 2 meses, Villa Martelli, Buenos Aires, Argentina</p>
+                   <ul>
+                      <li>Reparación de luminarias led, fluorescente y de descarga de gas (lámparas sodio SAP, mercurio MHN-HPI-T)</li>
+                      <li>Mantenimiento predictivo y correctivo usando metodología de trabajo kanban 看板 y Kaizen 改善 5S</li> 
+                      <li>Recepción de mercadería de clientes</li>
+                      <li>Cálculo luminotécnicos para distintos ambientes</li>
+                      <li>Diseño y ensayo de equipos de iluminación led simétrica y asimétrica (importados y de producción propia)</li>
+                      <li>Paletizado, organización y distribución de equipos e insumos.</li>
+                    </ul>
+        </div>
      </div>
-     </div>
-    </div>
+   </div>
+
      <!--   Experiencia 2 -->
+
     <div class="accordion-item">
        <h3 class="accordion-header" id="headingTwo">
          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Digital Copiers S.R.L
@@ -93,35 +104,56 @@
        </h3>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>Soporte técnico</strong> Dic. 2011 - Sept. 2012 · 10 meses Ciudad autónoma de buenos aires, Argentina. Soporte técnico en línea, atención al cliente, manejo de personal, trato con proveedores, armado de presupuesto, reparación de equipos (fotocopiadoras, multifunciones, impresoras)
+              <p><strong>Soporte técnico</strong> Dic. 2011 - Sept. 2012 · 10 meses Ciudad autónoma de Buenos Aires, Argentina.</p>
+                  <ul>
+                    <li>Soporte técnico en línea</li>
+                    <li>Atención al cliente</li>
+                    <li>Manejo de personal</li>
+                    <li>Trato con proveedores</li>
+                    <li>Armado de presupuesto</li>
+                    <li>Reparación de equipos (fotocopiadoras, multifunciones, impresoras)</li>
+                  </ul>
         </div>
       </div>
     </div>
+
      <!--   Experiencia 3 -->
+
   <div class="accordion-item">
       <h4 class="accordion-header" id="headingThree">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">San up S.A
         </button>
       </h4>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body"><strong>Operario</strong>  San up S.A Ene. 2010 - Nov. 2011 · 1 año 11 meses,San Andrés,GBA,Argentina.Operario de tareas generales tales como,soldadura con estaño,cableado, control de calidad y embalaje.
-
+      <div class="accordion-body"> 
+              <p><strong>Operario de tareas generales</strong>  San up S.A Ene. 2010 - Nov. 2011 · 1 año 11 meses, San Andrés, Buenos Aires, Argentina. </p> 
+                    <ul>
+                      <li>Soldadura de componentes eletrónicos</li>
+                      <li>Cableado</li>
+                      <li>Control de calidad</li>
+                      <li>Embalaje y Paletizado</li>
+                    </ul>
       </div>
     </div>
   </div>
  </div>
 </div>
-   <!-- idiomas -->     
-<div id="idiomas" ><h5 class="tituloIdioma">Idiomas</h5>
-                  <ul>
-                      <li>Inglés: nivel intermedio</li>
-                      <li>Inglés técnico</li>
-                      <li>Español:nativo</li>              
-                  </ul>
-</div>
+
+   <!-- idiomas -->  
+
+  <div id="idiomas" >
+      <h5 class="tituloIdioma">Idiomas</h5>
+           <ul class="idiomasContenido">
+              <li>Inglés: nivel intermedio</li>
+              <li>Inglés técnico</li>
+              <li>Español: nativo</li>              
+           </ul>
+  </div>
+
 </article>
 
 <!-- item 5 Educación list example Bootstrap y conocimientos nav bar example Bootstrap -->
+
 <aside id="lateral" class="item5">
   <div id="educacion" ><h5 id="eduTitulo">Educación</h5>
 
@@ -129,7 +161,7 @@
           <p>Dic. 2022 - Mar. 2023 "Desarrollador web frontend" Ticmas academy (Cursada virtual)/ Argentina programa 4.0 </p>
      </div>
      <div class="instituto"> 
-       <h5>Técnicatura</h5>
+       <h5>Tecnicatura</h5>
           <p>2009-2013 - “ Técnico Superior  en Automatización, Robótica y control”  ITUOM (Instituto de la Unión Obrera Metalúrgica De Tres de Febrero)</p>
      </div>
      <div class="instituto" >
@@ -166,14 +198,15 @@
           <p>
             •HTML5
             •CSS3
-            •JavaScript
-            •Creación de páginas Web funcionales 
+            •JavaScript  
             •Prototipado y Maquetado de páginas web
+            •Creación de páginas Web
             •Uso de Framework Bootstrap
-            •Desarrolo de aplicaciones web con Javascript
+            •Desarrollo de aplicaciones web con Javascript
             •Trabajo en equipo utilizando Git & GitHub
             </p>
-           <p>
+          
+          <p>
             •Microcontroladores
             •Lenguajes assembler
             •Lenguaje C
@@ -181,16 +214,15 @@
             •Lenguaje V+
             •Arduino IDE (atmega168)
             •Motorola MC 68 HLC 90
-            •Pic 16f877/16f84
-             
-            
+            •Pic 16f877/16f84    
           </p>    
-            <p>
+          
+          <p>
               •PLC
               •Lenguaje ladder y FDB (Function diagram block) 
-               •PLC Siemens logo, festo mod FPC101,  Siemens SIMATICS7200, Telemecanique SR3B261FU</li>
-               •Control de procesos
-               •Monitoreo
+              •PLC Siemens logo, festo mod FPC101,  Siemens SIMATICS7200, Telemecanique SR3B261FU</li>
+              •Control de procesos
+              •Monitoreo
          </p>      
   </div>
   
@@ -200,6 +232,7 @@
                •	Manipulación de teach pendant
                •	Puesta en marcha 
                •	Mantenimiento y modificaciones
+               •	Matlab (cálculo de método Denavit Hartenberg)
             </p>  
   </div>
       <div id="scrollspyHeading3" class="conocimientos">
@@ -209,15 +242,17 @@
                 •	Variador de  velocidad (micromaster 440)
                 •	Puente H
                 •	Circuito estrella triángulo
-                •	PWM</p>
+                •	PWM
+            </p>
       </div>
               
       <div id="scrollspyHeading4" class="conocimientos" >
-         <h6>Neúmatica e hidraúlica</h6>
+         <h6>Neumática e hidráulica</h6>
            
             <p> •	Simulación con FESTOFLUID SIM
-                •	Accionamientos de sistemas neúmatico/ hidráulicos
-                •	Creación de sistemas neumáticos e hidráulicos controlados por PLC</p>
+                •	Accionamientos de sistemas neumático/ hidráulicos
+                •	Creación de sistemas neumáticos e hidráulicos controlados por PLC
+            </p>
       </div>
             
       
@@ -228,7 +263,6 @@
             <p> •	Reparación de PC
                 •	Instalación de software
                 •	Autocad
-                •	Matlab
                 •	Microsoft Word 
                 •	 Power Point 
                 •	 Excel
@@ -261,12 +295,12 @@
                   <img src="img/GitHub.png" alt="Compartir en GitHub" class="iconopie" >	
               </a>
 
-                <a href="#Comienzo" class="navbar-brand" class="btn-sm" id="btnPie" type="button"> Ir a comienzo</a>
+                <a href="#Comienzo" class="navbar-brand" id="btnPie" type="button"> Ir a comienzo</a>
 
     </footer>
 
-
 <!-- script bootstrap -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
 </body> 
 </html>

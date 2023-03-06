@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
-/* Definición de grid  de col6 * 10filas separdas en 6 items para dispositivos de mas de 480px */
+/* Definición de grid  de 6 col * 10 filas separdas en 6 items para dispositivos de mas de 480px */
 
 .grid-container {
     background-color:#006778 ;
@@ -179,11 +179,9 @@
   /* Estilos item 4 experiencia idiomas  */   
        
   #idiomas{
-    background-color: #0093AB;
     color: #7fffd4;
-    margin: 15px 10px 10px;
-    border-radius: 10px;
-    border: solid 2px gray;
+    
+   
   }
 
   .tituloIdioma{
@@ -192,6 +190,14 @@
     color: #ffff00;
     font-weight: 600;
   }
+
+  .idiomasContenido{
+    background-color: #0093AB;
+    margin: 15px 10px 10px;
+    border-radius: 10px;
+    border: solid 2px gray;
+   
+  }
  #experienciaTitulo{
   color: #7fffd4;
   background-color: #0093AB;
@@ -199,9 +205,10 @@
   font-weight:600 ;
   border-radius: 15px;
  }
+
  .accordion-button.collapsed{
     background-color: #006778;
-    color: #7fffd4;
+    color: #ffff00;
  }
 
  .acordion-button{
