@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
+/* Definición de grid  de col6 * 10filas separdas en 6 items para dispositivos de mas de 480px */
+
 .grid-container {
     background-color:#006778 ;
     display: grid;
@@ -19,6 +21,8 @@
     "area6 area6 area6 area6 area6 area6";
     } 
  
+   /*  Clasificación de items */
+
   .item1 {
     background: #0093AB;
     text-align: center;
@@ -64,7 +68,58 @@
     background-image: url(../img/header3.png);
   }
 
+  /* Estilos item 1 navbar */
+ 
+ #navbar-example2{
+  background-color:#006778;
+  text-decoration-color: #7fffd4;
+  border: 1px solid #ffff00;
+ }
+
+ .navbar-toggler-icon{
+  background-color: #0093AB;
+  border-radius: 10px;
+  font-weight:600;
+  
+  
+ }
+
+ .navbar-brand {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 5px;
+  font-family: roboto;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration:none;
+  outline: none;
+  color: #ffff00;
+  background-color: #0093AB;
+  border: 1px solid #FFFF00;
+  border-radius: 15px;
+  
+  
+}
+
+.navbar-brand:hover {background-color: #7fffd4}
+
+.navbar-brand:active {
+
+  background-color: #006778;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#navbar-example2{
+  background-image: url(../img/header4.png);
+  background-color: #006778;
+  border: solid 1px;
+  color: #ffff00;
+}
+
+  /* Estilos de  item 3 info general */
+
 .infoGral{
+  
   color:#7fffd4;
   background-color: #0093AB;
   font-size: 30px;
@@ -121,22 +176,8 @@
          color: #7fffd4;
        }
 
-      #conocimiento{
-         
-         color: #7fffd4;
-         border-radius: 15px;
-         border: solid 2px gray;
-        
-
-       }
-       .conocimientos>p{
-         margin-top: 10px;
-         background-color: #0093AB;
-         margin: 15px 10px 10px;
-         border-radius: 15px;
-         border: solid 2px gray;
-       }
-
+  /* Estilos item 4 experiencia idiomas  */   
+       
   #idiomas{
     background-color: #0093AB;
     color: #7fffd4;
@@ -181,56 +222,9 @@
  .accordion-item{
   background-color: #006778;
  }
- 
- #navbar-example2{
-  background-color:#006778;
-  text-decoration-color: #7fffd4;
-  border: 1px solid #ffff00;
- }
 
- .navbar-toggler-icon{
-  background-color: #0093AB;
-  border-radius: 10px;
-  
-  
- }
+/* Estilos item 5 educación y conocimientos */
 
- .navbar-brand {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 5px;
-  font-family: roboto;
-  cursor: pointer;
-  text-align: center;	
-  text-decoration:none;
-  outline: none;
-  background-color: #0093AB;
-  border: 1px solid #FFFF00;
-  border-radius: 15px;
-  
-}
-
-.navbar-brand:hover {background-color: #7fffd4}
-
-.navbar-brand:active {
-  background-color: #006778;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-#navbar-example2{
-  background-image: url(../img/header4.png);
-  background-color: #006778;
-  border: solid 1px;
-  color: #ffff00;
-}
-div>h6{
-  font-size: 30px;
-  color: #ffff00;
-  font-weight: 600;
-}
-.dropdown-menu.show{
-  background-color: #006778;
-}
 
 #eduTitulo{
  
@@ -258,13 +252,44 @@ div>h6{
   font-weight: 600;
 }
 
-.iconopie{
-  width: 32px;
-  height: 32px;
-  gap: 1px;
-  margin-top: 10px;
-  
+#conocimiento{
+         
+  color: #7fffd4;
+  border-radius: 15px;
+  border: solid 2px gray;
+ 
+
 }
+.conocimientos>p{
+  margin-top: 10px;
+  background-color: #0093AB;
+  margin: 15px 10px 10px;
+  border-radius: 15px;
+  border: solid 2px gray;
+}
+
+div>h6{
+ font-size: 30px;
+ color: #ffff00;
+ font-weight: 600;
+}
+
+.dropdown-menu.show{
+  background-color: #006778;
+}
+
+
+/* Estilos item 6 Footer  */
+
+#pie{
+  display: flex;
+  color: #7fffd4;
+  font-size: 20px;
+  text-align: center;
+  width:auto;
+ }
+
+ 
 #pieTitulo{
   color: #ffff00;
   margin: 10px 15px 15px;
@@ -275,21 +300,77 @@ div>h6{
   display: flex;
   justify-content: flex-end;
 }
- #pie{
-  display: flex;
-  flex-direction: initial;
-  color: #7fffd4;
-  font-size: 20px;
-  text-align: center;
-  width:100%;
- }
- @media screen and (max-width: 480px){
- .grid-container{
+.iconopie{
+  width: 32px;
+  height: 32px;
+  gap: 1px;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  background-size: 20px;
+  border-radius: 10px;
+}
+
+  
+/* media query adaptacion para mobile*/
+
+ @media screen and (max-width: 480px) and (min-width:351px){
+ 
+  .grid-container{
  display: flex;
  flex-direction:column;
  }
+ .iconopie{
+  width: 16px;
+  height: 16px;
+  gap: 1px;
+  margin-top: auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+#btnPie{
+  margin: auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  font-size: auto;
 
- }
+}
+
+}
+
+@media screen and (max-width:350px) and (min-width: 240px){
+
+  .grid-container{
+    display: flex;
+    flex-direction:column;
+    }
+
+ .iconopie{
+
+  width: 16px;
+  height: 16px;
+  gap: 1px;
+  margin-top: auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+#btnPie{
+  margin: auto auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 5px;
+}
+}
+
+
  
 
 
