@@ -126,7 +126,7 @@
 .infoGral{
   
   color:#7fffd4;
-  background-color: #0093AB;
+  background-color: #006778;
   font-size: 30px;
   margin: 10px 15px 15px;
   border-radius: 15px;
@@ -192,8 +192,10 @@
   .tituloIdioma{
     margin: 15px 10px 10px;
     font-size: 30px;
-    color: #ffff00;
+    color: #7fffd4;
+    background-color: #006778;
     font-weight: 600;
+    border-radius: 15px;
   }
 
   .idiomasContenido{
@@ -205,10 +207,11 @@
   }
  #experienciaTitulo{
   color: #7fffd4;
-  background-color: #0093AB;
+  background-color: #006778;
   font-size: 30px;
   font-weight:600 ;
   border-radius: 15px;
+  margin: 10px 10px 10px;
  }
 
  .accordion-button.collapsed{
@@ -241,7 +244,7 @@
 #eduTitulo{
  
   color:#7fffd4;
-  background-color: #0093AB;
+  background-color: #006778;
   font-size: 30px;
   margin: 10px 15px 15px;
   border-radius: 15px;
@@ -262,6 +265,16 @@
   margin: 10px 20px 20px 10px;
   color: #ffff00;
   font-weight: 600;
+}
+.conocimientosTitulo{
+  margin: 30px 10px 10px ;
+  color: #7fffd4;
+  background-color: #006778;
+  font-size: 30px;
+  font-weight:600 ;
+  border-radius: 15px;
+
+
 }
 
 #conocimiento{

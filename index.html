@@ -50,7 +50,7 @@
   
   <!-- Bloque 3 perfil con card de Bootstrap -->
 
-  <section id="principal" class="item3"><p class="infoGral">Info general</p>
+  <main id="principal" class="item3"><p class="infoGral">Info general</p>
            
           <img id="fotoPerfil" src="img/fotodeperfil.png" alt="imagen de perfil">
            <div class="card-body">
@@ -65,7 +65,7 @@
                     </p>
     </div>
 
-  </section>
+  </main>
 
   <!-- item4 Experinecia hecha Acordion con Boostrap y bloque de idiomas -->
   
@@ -171,9 +171,9 @@
             
   </div>   
   
-  <div id="conocimiento">
-    <nav id="navbar-example2" class="navbar px-1 g-sm-1">
-         <a class="btnNav" href="#conocimiento">Conocimientos</a>
+  <article id="conocimiento">
+    <h5 class="conocimientosTitulo">Conocimientos</h5>    
+    <nav id="navbar-example2" class="navbar px-sm-2 g-sm-2">
          <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="btnNav" href="#scrollspyHeading1">Programación</a>
@@ -181,18 +181,19 @@
             <li class="nav-item">
                 <a  class="btnNav" href="#scrollspyHeading2">Robótica</a>
             </li>
+            <li class="nav-item">
+              <a  class="btnNav" href="#scrollspyHeading2">informática</a>
             <li class="nav-item dropdown">
                 <a class="btnNav" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
           
           <ul class="dropdown-menu">
-            <li><a class="btnNav" class="dropdown-item" href="#scrollspyHeading3">Electrónica de potencia</a></li>
             <li><a class="btnNav" class="dropdown-item" href="#scrollspyHeading4">Neúmatica e Hidraúlica</a></li>
-            <li><a class="btnNav" class="dropdown-item" href="#scrollspyHeading5">Informática</a></li>
+            <li><a class="btnNav" class="dropdown-item" href="#scrollspyHeading5">Electrónica de Potencia</a></li>
           </ul>
             </li>
           </ul>
           </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="false" class="scrollspy-example p-3 rounded-2" tabindex="0">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -20%" data-bs-smooth-scroll="false" class="scrollspy-example p-3 rounded-2" tabindex="0">
       <div id="scrollspyHeading1"class="conocimientos"><h6 >Programación</h6>
           <p>
             •HTML5
@@ -272,7 +273,7 @@
             </p>
       </div>
    </div>
-  </div>
+  </article>
 </aside>
 
  <!-- Item 6 footer (uso de clase navbar-brand para reutilizar fotmato en boton) -->
