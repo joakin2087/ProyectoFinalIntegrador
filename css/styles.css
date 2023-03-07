@@ -79,31 +79,36 @@
  .navbar-toggler-icon{
   background-color: #0093AB;
   border-radius: 10px;
-  font-weight:600;
-  
-  
+  font-weight:600; 
  }
 
- .navbar-brand {
-  display: inline-block;
+ .btnNav{
+
+  display: flex;
+  flex-direction: column;
   padding: 10px 15px;
-  font-size: 5px;
+  font-size: 20px;
   font-family: roboto;
   cursor: pointer;
+  text-decoration: none;
   text-align: center;	
-  text-decoration:none;
-  outline: none;
   color: #ffff00;
   background-color: #0093AB;
   border: 1px solid #FFFF00;
   border-radius: 15px;
+  margin: 0 5px 5px;
+
+  
   
   
 }
 
-.navbar-brand:hover {background-color: #7fffd4}
+.btnNav:hover { 
+  background-color: #7fffd4;
+  color: #000;
+}
 
-.navbar-brand:active {
+.btnNav:hover.active {
 
   background-color: #006778;
   box-shadow: 0 5px #666;
@@ -299,13 +304,35 @@ div>h6{
  
 #pieTitulo{
   color: #ffff00;
-  margin: 10px 15px 15px;
+  margin: 10px 10px 15px;
 
 } 
 #btnPie{
   margin: 10px 15px 15px;
   display: flex;
   justify-content: flex-end;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: roboto;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration:none;
+  outline: none;
+  color: #ffff00;
+  background-color: #006778;
+  border: 1px solid #FFFF00;
+  border-radius: 15px;
+}
+#btnPie:hover{
+  background-color: #7fffd4;
+  color: #000;}
+#btnPie.iconopie:hover.active{
+  background-color: #006778;
+  color: #000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
 }
 .iconopie{
   width: 32px;
@@ -313,8 +340,13 @@ div>h6{
   gap: 1px;
   margin-top: 10px;
   background-color: antiquewhite;
-  background-size: 20px;
-  border-radius: 10px;
+  background-size: 5px;
+  border-radius: 15px;
+  
+}
+.iconopie:hover {scale: 1.5;}
+.iconopie:hover.active{
+  background-color: #ffff00;
 }
 
   
@@ -340,6 +372,7 @@ div>h6{
   flex-direction: column;
   justify-content: flex-start;
   width: auto;
+  font-size: 10px;
   
 
 }
@@ -363,18 +396,31 @@ div>h6{
   border-radius: 10px;
   align-items: center;
   justify-content: center;
+}
+#iconoPie{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat(3,1fr) ;
+  gap: 1px;
+  margin: auto 10px auto;
 
 }
 #btnPie{
-  margin: auto auto auto;
+  
   display: flex;
   flex-direction: column;
   align-items:center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  font-size: 5px;
+  width: auto;
+  font-size: 10px;
+  margin: auto auto auto;
+  
 }
+#pieTitulo{
+  margin: 0px auto auto;
+  font-size: auto;
+}
+
 }
 
 

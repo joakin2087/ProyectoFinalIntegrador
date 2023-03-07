@@ -13,12 +13,14 @@ Dividido en 6 items con grilla (Grid) :
 -Conocimientos(item5)
 -Footer(item6)
 
-se usaron animaciones en botones de navbar principal/navbar conocimientos y boton de regreso al comienzo en footer.
+Se usaron animaciones en botones de navbar principal / navbar conocimientos y boton de regreso al comienzo en footer.
 
 Se uso Bootstrap 5 para:
 -Navbar de navegación
 -Acordeon de experiencia
 -Navbar con dropdown para conocimientos
+
+
 
 
 
