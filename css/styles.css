@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Definición de grid  de 6 col * 10 filas separdas en 6 items para dispositivos de mas de 480px */
 
@@ -185,6 +186,74 @@
          border-radius: 15px;
          
        }
+
+.iconoInfo {
+  margin: 20px 10px 5px;
+  color: #ffff00;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;    
+}
+.bi.bi-eye{
+  margin: 10px 10px 0px;
+}
+
+.boton {
+
+  color: #7fffd4;
+  background-color: #0093AB;
+  padding: .75em 1em; 
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content:center;
+  font-size: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif; 
+}
+
+.boton.cerrar {
+  background-color: #0093AB;
+  color: #000;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  
+  
+}
+
+.modal-centro {
+  position:fixed;
+  width: 40%;
+  top: 40%;
+  background-color: #006778;
+  color: #7fffd4;
+  font-size: 20px;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction:column;
+  text-align: start;
+  visibility:hidden;
+  opacity: 0;
+  transform: scale(.5);
+  transition: .3s;
+  box-shadow: 0 0 0 500vmax rgba(0, 0 ,0, .5);
+
+}
+
+.modal-centro.active {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  gap: 2px;
+}
+i{
+  margin-right: 10px;
+}
 
        #intro{
          margin: 30px 10px 10px;
