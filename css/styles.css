@@ -249,10 +249,10 @@
   transform: scale(1);
   opacity: 1;
   visibility: visible;
-  gap: 2px;
+  
 }
 i{
-  margin-right: 10px;
+  margin-right: auto;
 }
 
        #intro{
@@ -480,6 +480,26 @@ div>h6{
 #navbar-example2{
   display: flex;
   flex-direction: column;
+}
+
+.modal-centro {
+  position:fixed;
+  width: 50%;
+  top: 40%;
+  background-color: #006778;
+  color: #7fffd4;
+  font-size: 0.8rem;
+  padding: 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction:column;
+  text-align: start;
+  visibility:hidden;
+  opacity: 0;
+  transform: scale(.5);
+  transition: .3s;
+  box-shadow: 0 0 0 500vmax rgba(0, 0 ,0, .5);
+
 }
 
 }
