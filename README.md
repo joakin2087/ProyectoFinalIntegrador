@@ -1,5 +1,7 @@
 # ProyectoFinalIntegrador
 Cv desarollado en HTML CSS y JavaScript
+ 
+Esquema de disposición / Wireframe mobile y deskstop
 
 Responsive (Mobile,Tablet,Desktop y SmartTv>1400px)
 
@@ -19,8 +21,6 @@ Se uso Bootstrap 5 para:
 -Navbar de navegación
 -Acordeon de experiencia
 -Navbar con dropdown para conocimientos
-
-
 
 
 
